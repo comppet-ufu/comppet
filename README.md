@@ -42,6 +42,12 @@ We can think about the performance, automation of tasks like optmization of imag
 
 We can move the project to a framework like React, Sapper or Vue
 
+## Deployment
+
+In this moment, the site is hospeded by the gitHub Pages.
+We have to think and deploy in our self server.
+
+
 ## Credits:
 	Start Tempalte:
 		Solid State by HTML5 UP (html5up.net )
