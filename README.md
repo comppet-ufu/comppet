@@ -25,7 +25,14 @@ Clone this repo with git:
 3. pages.html
    > all the pages for the project will have the extension .html
 
+## Organization and elements of Project
 
+![alt](infoGitHub/projeto.jpg)
+
+
+## Methodology
+
+We will create some issues in the repository and the members will discuss about the issue and resolve.
 
 
 ## Credits:
