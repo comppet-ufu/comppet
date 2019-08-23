@@ -10,8 +10,7 @@
 ## Get Started
 
 ### First
-Clone this repo with git:
-`git clone https://github.com/comppet-ufu/comppet`
+Clone this repo with git: `git clone https://github.com/comppet-ufu/comppet`
 
 ### Folder Structure
 
@@ -36,33 +35,31 @@ Clone this repo with git:
 
 We will create some issues in the repository and the members will discuss about the issue and resolve.
 
-Some simple Rules:
+**Some simple Rules:**
 - Never push directly to master, always create a merge request.
 - Always wait for your merge request to be accepted, if needed, you may request an earlier code-review.
 
+**The sequence to fix a issue or add a feature:**
 1. Run `git pull origin master`
 2. Create another branch with `git checkout -b Name_New_branch`
 3. Resolve or create the feature and commit in this branch
-4. At end, create the Pull/Merge Request for the master branch and wait
+4. Create the Pull/Merge Request for the master branch and wait
 
-## Future
+## In the Future
 
-We can think about the performance, automation of tasks like optmization of images or minification of files.
+We can talk about performance and automation of tasks like optmization of images or minification of files.
 
-We can move the project to a framework like React, Sapper or Vue
+We can move the project to a framework like React, Sapper or Vue.
 
 ## Deployment
 
 In this moment, the site is hospeded by the gitHub Pages.
-We have to think and deploy in our self server.
+We have to analyze and deploy in our self server.
 
 
 ## Credits:
 	Start Tempalte:
 		Solid State by HTML5 UP (html5up.net )
-
-	Demo Images:
-		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
