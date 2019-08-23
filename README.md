@@ -36,6 +36,15 @@ Clone this repo with git:
 
 We will create some issues in the repository and the members will discuss about the issue and resolve.
 
+Some simple Rules:
+- Never push directly to master, always create a merge request.
+- Always wait for your merge request to be accepted, if needed, you may request an earlier code-review.
+
+1. Run `git pull origin master`
+2. Create another branch with `git checkout -b Name_New_branch`
+3. Resolve or create the feature and commit in this branch
+4. At end, create the Pull/Merge Request for the master branch and wait
+
 ## Future
 
 We can think about the performance, automation of tasks like optmization of images or minification of files.
