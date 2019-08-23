@@ -16,14 +16,16 @@ Clone this repo with git:
 ### Folder Structure
 
 1. Assets: 
-   > css : the main css and the styles for the website
-   > js : the main js files and the libraries
-   > sass : the preprocessor folder contain the scss files for estilization
-   > webfonts : the fonts for the website
+   1. > css : the main css and the styles for the website
+   2. > js : the main js files and the libraries
+   3. > sass : the preprocessor folder contain the scss files for estilization
+   4. > webfonts : the fonts for the website
 2. images  
    >the images and icons for the website
-3. pages.html
-   > all the pages for the project will have the extension .html
+3. index.html
+   > The main page for the project
+4. generic.html
+   > This page will serve with a layout for the next pages, like the information page or page with links for the new members of the CompPet
 
 ## Organization and elements of Project
 
