@@ -36,6 +36,11 @@ Clone this repo with git:
 
 We will create some issues in the repository and the members will discuss about the issue and resolve.
 
+## Future
+
+We can think about the performance, automation of tasks like optmization of images or minification of files.
+
+We can move the project to a framework like React, Sapper or Vue
 
 ## Credits:
 	Start Tempalte:
