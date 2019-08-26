@@ -75,3 +75,11 @@ We have to analyze and deploy in our self server.
 
 Learn about github with: 
 [Github-Training](https://lab.github.com/githubtraining/introduction-to-github)
+
+
+## Open Tasks
+
+- [ ] Adicionar Informações Sobre as Iniciações Científicas de cada petiano.
+- [ ] Criar página para adicionar os formulários de Iniciação Científica. E adicionar os formulários.
+- [ ] Criar página com as informações de extensão.
+- [ ] Criar página para divulgar as ativades de Ensino.
