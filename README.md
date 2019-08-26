@@ -69,3 +69,9 @@ We have to analyze and deploy in our self server.
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 		TypeIt (https://github.com/alexmacarthur/typeit)
+
+
+## Help
+
+Learn about github with: 
+[Github-Training](https://lab.github.com/githubtraining/introduction-to-github)
