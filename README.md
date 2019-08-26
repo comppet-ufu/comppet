@@ -76,6 +76,9 @@ We have to analyze and deploy in our self server.
 Learn about github with: 
 [Github-Training](https://lab.github.com/githubtraining/introduction-to-github)
 
+Quick Guide (pt-br)
+[Tutorial](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
+
 
 ## Open Tasks
 
