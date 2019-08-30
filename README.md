@@ -84,5 +84,5 @@ Quick Guide (pt-br)
 
 - [ ] Adicionar Informações Sobre as Iniciações Científicas de cada petiano.
 - [X] Criar página para adicionar os formulários de Iniciação Científica. E adicionar os formulários.
-- [ ] Criar página com as informações de extensão.
-- [ ] Criar página para divulgar as ativades de Ensino.
+- [X] Criar página com as informações de extensão.
+- [X] Criar página para divulgar as ativades de Ensino.
