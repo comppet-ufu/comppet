@@ -59,7 +59,7 @@ Example:
 7. **`git push origin atualizar_readme`** - envio a branch que eu criei para o repositório online, onde irei fazer um merge request com a branch principal.
 8. Abra o website do github e deverá encontrar o seu merge request.
 ![mergeRequest](/infoGitHub/merge-request.png)
-9. Envie o pull request, assine o seu pull request e adicione um revisor do código, no lado esquerdo da tela.
+9. Envie o pull request, assine o seu pull request e adicione um revisor do código, no lado direito da tela.
 ![pullRequest](/infoGitHub/pull-request.png)
 10. Agora é só esperar o pull request ser aceito pelo revisor.
 ![assign](/infoGitHub/assign.png)
