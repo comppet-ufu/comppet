@@ -107,3 +107,5 @@ Quick Guide (pt-br)
 - [X] Criar página para adicionar os formulários de Iniciação Científica. E adicionar os formulários.
 - [X] Criar página com as informações de extensão.
 - [X] Criar página para divulgar as ativades de Ensino.
+
+Contribuidores: Laís
