@@ -60,7 +60,7 @@ Example:
 8. Abra o website do github e deverá encontrar o seu merge request.
 ![mergeRequest](/infoGitHub/merge-request.png)
 9. Envie o pull request, assine o seu pull request e adicione um revisor do código, no lado esquerdo da tela.
-![pullRequest](/inforGitHub/pull-request.png)
+![pullRequest](/infoGitHub/pull-request.png)
 10. Agora é só esperar o pull request ser aceito pelo revisor.
 ![assign](/infoGitHub/assign.png)
 11. Observação: toda nova alteração no código, este processo deverá ser refeito.
