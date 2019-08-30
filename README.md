@@ -43,7 +43,23 @@ We will create some issues in the repository and the members will discuss about 
 1. Run `git pull origin master`
 2. Create another branch with `git checkout -b Name_New_branch`
 3. Resolve or create the feature and commit in this branch
+Using (git `commit -m "mensagem sobre o que foi feito"`)
 4. Create the Pull/Merge Request for the master branch and wait
+Using: `git pull origin Name_New_branch`
+5. Do the merge request in github website
+Example:
+1. **`git pull origin master`** - atualiza seu repositório local com a master do github
+2. **`git checkout -b atualizar_readme`** - crio uma nova branch chamada atualizar_readme, onde irei criar essa nova funcionalidade ou atualizar a já existente.
+3. Faço a funcionalidade e testo até que ela esteja funcionando completamente.
+4. **`git status`** - verifico os arquivos que foram atualizados pelas minhas alterações.
+5. **`git add *`** - adiciono os arquivos que modifiquei corretamente, uso o * para adicionar todos.
+6. **`git commit -m "exemplo de atualizacao do readme"`** - comito as alterações adicionadas pelo git add, e escrevo uma mensagem descrevendo o commit.
+7. **`git push origin atualizar_readme`** - envio a branch que eu criei para o repositório online, onde irei fazer um merge request com a branch principal.
+8. Abra o website do github e deverá encontrar o seu pull request.
+9. Envie o pull request, assine o seu pull request e adicione um revisor do código, no lado esquerdo da tela.
+10. Agora é só esperar o pull request ser aceito pelo revisor.
+11. Observação: toda nova alteração no código, este processo deverá ser refeito.
+
 
 ## In the Future
 
