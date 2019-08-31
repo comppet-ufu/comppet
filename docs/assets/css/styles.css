@@ -18,3 +18,35 @@
   transform: translateY(-10px)
 }
 
+
+#header ul {
+  margin-left:236px;
+  list-style: none;
+  display: flex;
+  position: absolute;
+  display: none;
+}
+
+#header ul li{
+  margin-left: 12px;
+}
+
+#header h1{
+  display: flex;
+}
+
+#header ul li a{
+  transition: all linear .3s;
+}
+
+#header ul li a:hover{
+  opacity: .8;
+  border-bottom: 1px solid #fff;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  #header nav {display:none;}
+  #header ul {display: flex;}
+}
