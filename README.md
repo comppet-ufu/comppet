@@ -14,21 +14,22 @@ Clone this repo with git: `git clone https://github.com/comppet-ufu/comppet`
 
 ### Folder Structure
 
-1. Assets: 
+**Docs folder**
+1. **Assets**: 
    1. > css : the main css and the styles for the website
    2. > js : the main js files and the libraries
    3. > sass : the preprocessor folder contain the scss files for estilization
    4. > webfonts : the fonts for the website
-2. images  
+2. **images**  
    >the images and icons for the website
-3. index.html
+3. **index.html**
    > The main page for the project
-4. generic.html
+4. **generic.html**
    > This page will serve with a layout for the next pages, like the information page or page with links for the new members of the CompPet
 
 ## Organization and elements of Project
 
-![alt](infoGitHub/projeto.jpg)
+![alt](info-readme/projeto.jpg)
 
 
 ## Methodology
@@ -58,11 +59,11 @@ Example:
 6. **`git commit -m "exemplo de atualizacao do readme"`** - comito as alterações adicionadas pelo git add, e escrevo uma mensagem descrevendo o commit.
 7. **`git push origin atualizar_readme`** - envio a branch que eu criei para o repositório online, onde irei fazer um merge request com a branch principal.
 8. Abra o website do github e deverá encontrar o seu merge request.
-![mergeRequest](/infoGitHub/merge-request.png)
+![mergeRequest](/info-readme/merge-request.png)
 9. Envie o pull request, assine o seu pull request e adicione um revisor do código, no lado direito da tela.
-![pullRequest](/infoGitHub/pull-request.png)
+![pullRequest](/info-readme/pull-request.png)
 10. Agora é só esperar o pull request ser aceito pelo revisor.
-![assign](/infoGitHub/assign.png)
+![assign](/info-readme/assign.png)
 11. Observação: toda nova alteração no código, este processo deverá ser refeito.
 
 
@@ -108,4 +109,7 @@ Quick Guide (pt-br)
 - [X] Criar página com as informações de extensão.
 - [X] Criar página para divulgar as ativades de Ensino.
 
-Contribuidores: Laís
+## Authors
+- Laís Deghaide - developer - [GitHub](https://github.com/laisdeghaide) 
+- Fabrício Ziliotti - developer - [GitHub](https://github.com/Fziliotti) 
+- ...

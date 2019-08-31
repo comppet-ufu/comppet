@@ -8,3 +8,13 @@
 ::-webkit-scrollbar-track {
   background: #545454;
 }
+
+/* HOME */
+.features article {
+  transition: .3s all linear;
+}
+
+.features article:hover {
+  transform: translateY(-10px)
+}
+
