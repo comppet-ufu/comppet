@@ -112,4 +112,4 @@ Quick Guide (pt-br)
 ## Authors
 - Laís Deghaide - developer - [GitHub](https://github.com/laisdeghaide) 
 - Fabrício Ziliotti - developer - [GitHub](https://github.com/Fziliotti) 
-- ...
+- Higor Emanuel - developer - [GitHub](https://github.com/higoress)
