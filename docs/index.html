@@ -6,6 +6,7 @@
 		<link rel="icon" href="./images/favicon.png" />.
 		<link rel="stylesheet" href="./assets/css/main.css" />
 		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<noscript><link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
 
 		<!-- SEO -> TODA PAGINA PRECISA ALTERAR ESSAS METATAGS ABAIXO -->
@@ -35,6 +36,7 @@
 									<li><a href="./pesquisa.html">Pesquisa </a></li>
 									<li><a href="./extensao.html">Extensão </a></li>
 									<li><a href="./quem_somos.html">Quem somos</a></li>
+									<li ><a class="link--blog" target="_BLANK" href="https://comppet.github.io/PrintF/">Conheça nosso blog</a></li>
 								</ul>
 							</h1>
 						<nav>
@@ -52,6 +54,7 @@
 								<li><a href="./pesquisa.html">Pesquisa</a></li>
 								<li><a href="./extensao.html">Extensão</a></li>
 								<li><a href="./quem_somos.html">Quem Somos</a></li>
+								<li><a target="_BLANK" href="https://comppet.github.io/PrintF/">Blog PrintF</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -212,6 +215,9 @@
 
 			</div>
 
+			<a id="button"></a>
+
+
 		<!-- Scripts -->
 			<script src="./assets/js/jquery.min.js"></script>
 			<script src="./assets/js/jquery.scrollex.min.js"></script>
@@ -240,7 +246,6 @@
 			})
 			.go()
 			
-
 			const pesquisa = new TypeIt('#pesquisa', {
 				waitUntilVisible:true
 			})
@@ -264,7 +269,24 @@
 
 		</script>
 
-		
+		<script>
+		var btn = $('#button');
+
+		$(window).scroll(function() {
+			if ($(window).scrollTop() > 300) {
+				btn.addClass('show');
+			} else {
+				btn.removeClass('show');
+			}
+		});
+
+		btn.on('click', function(e) {
+			e.preventDefault();
+			$('html, body').animate({scrollTop:0}, '300');
+		});
+
+
+		</script>
 
 	</body>
 </html>
