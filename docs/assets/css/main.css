@@ -54,6 +54,7 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 	overflow-x: hidden;
+	width: 100%;
 }
 
 mark {
