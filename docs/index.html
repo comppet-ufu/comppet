@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="./images/favicon.png" />.
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="./assets/css/main.css" />
 		<link rel="stylesheet" href="./assets/css/styles.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -76,8 +77,9 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="./ensino.html" class="image"><img src="./images/ensino1.png" alt="" /></a>
-									<div class="content">
+									<a data-aos="fade-up-left" href="./ensino.html" class="image "><img src="./images/ensino1.png" alt="" /></a>
+								
+									<div  class="content">
 										<h2 class="major" id="ensino">Ensino</h2>
 										<p>Minicursos e grupos de estudos voltados para alunos das FACOM (Faculdade de Computação – UFU), com o intuito de trazer novos tópicos e uma maior interação entre os alunos, ajudando na jornada da faculdade e melhor prepará-los para o mercado de trabalho.
 										</p>
@@ -89,7 +91,7 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="./pesquisa.html" class="image"><img src="./images/pesquisa1.jpg" alt="" /></a>
+									<a data-aos="fade-up-right" href="./pesquisa.html" class="image"><img src="./images/pesquisa1.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major" id="pesquisa">Pesquisa</h2>
 										<p>Todo petiano também desenvolve habilidades em pesquisa científica, em uma Iniciação Científica. Aprimorando a análise crítica, a maturidade intelectual e a proatividade.</br>
@@ -102,7 +104,7 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="./extensao.html" class="image"><img src="./images/extensão2.png" alt="" /></a>
+									<a data-aos="fade-up-left"  href="./extensao.html" class="image"><img src="./images/extensão2.png" alt="" /></a>
 									<div class="content">
 										<h2 class="major" id="extensao">Extensão</h2>
 										<p>Projetos voltados para a comunidade de Uberlândia, com o intuito de levar é aprendido na universidade em benefício de todos.</p>
@@ -120,7 +122,7 @@
 									</p>
 									<section class="features">
 
-										<article>
+										<article data-aos="fade-up-right">
 											<a href="http://www.techweek.facom.ufu.br/" target="_BLANK" class="image activity-image"><img src="./images/techweek.png" alt="" /></a>
 											<h3 class="major">FACOM Techweek</h3>
 											<p>A semana acadêmica da Faculdade de computação é organizada anualmente, no primeiro semestre de cada ano letivo. Conta com palestras, minicursos, workshop de teses de dissertações e outros eventos menores organizados pelo CompPET, como por exemplo: a maratona de programação, mostra de software, entre outros.</p>
@@ -128,14 +130,14 @@
 										</article>
 
 
-										<article>
+										<article data-aos="fade-up-left">
 											<a href="https://comppet.github.io/PrintF/" target="_BLANK" class="image activity-image"><img src="./images/printf.png" alt="" /></a>
 											<h3 class="major">Blog printf</h3>
 											<p>O projeto visa ser um meio de compartilhamento de projetos, pesquisas, tecnologias e visões pessoais dos membros do PET e estudantes da universidade.</p>
 											<a href="https://comppet.github.io/PrintF/" target="_BLANK" class="special">Conheça o blog</a>
 										</article>
 
-										<article>
+										<article data-aos="fade-up-right">
 											<a href="https://comppet-ufu.github.io/comppet/ensino.html" class="image activity-image"><img src="./images/cursos.png" alt="" /></a>
 											<h3 class="major">Minicursos</h3>
 											Nós do grupo CompPET oferecemos diversos cursos para a comunidade e estudantes da Universidade:
@@ -152,7 +154,7 @@
 											<a href="https://comppet-ufu.github.io/comppet/ensino.html" class="special">Conheça os principais cursos</a>
 										</article>
 
-										<article>
+										<article data-aos="fade-up-left">
 											<a href="http://uberhubcode.com.br/" target="_BLANK" class="image activity-image"><img src="./images/uberhub.jpg" alt="" /></a>
 											<h3 class="major">UberHub CodeClub</h3>
 											<p>O UberHub Code Club é um programa de incentivo à formação de desenvolvedores de software realizado pelo Instituto UberHub Educação e o ecossistema de inovação da cidade de Uberlândia, o UberHub, com o apoio de diversas entidades, empresas e pessoas físicas interessadas.</p>
@@ -226,9 +228,17 @@
 			<script src="./assets/js/util.js"></script>
 			<script src="./assets/js/main.js"></script>
 
+
+		<!-- Biblioteca animações on scroll -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+		
 		<!-- Bibliotecas adicionadas a parte -->
-		<!-- Load the script on the page. -->
 		<script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js"></script>
+
+
 
 		<script>
 			const subtitle = new TypeIt('#typerTitle', {

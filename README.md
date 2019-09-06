@@ -102,14 +102,9 @@ Quick Guide (pt-br)
 [Tutorial](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 
 
-## Open Tasks
-
-- [ ] Adicionar Informações Sobre as Iniciações Científicas de cada petiano.
-- [X] Criar página para adicionar os formulários de Iniciação Científica. E adicionar os formulários.
-- [X] Criar página com as informações de extensão.
-- [X] Criar página para divulgar as ativades de Ensino.
-
 ## Authors
 - Laís Deghaide - developer - [GitHub](https://github.com/laisdeghaide) 
 - Fabrício Ziliotti - developer - [GitHub](https://github.com/Fziliotti) 
 - Higor Emanuel - developer - [GitHub](https://github.com/higoress)
+- Salomão Alves - developer - [GitHub](https://github.com/salomaoalves)
+- Lucas Mendes - developer - [GitHub](https://github.com/lucasgmendes)
