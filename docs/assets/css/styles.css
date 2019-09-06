@@ -92,8 +92,6 @@
   visibility: visible;
 }
 
-
-
 .link--blog{
   align-self: flex-end !important;
   background: #435ca6;
@@ -105,4 +103,10 @@
 .link--blog:hover{
   border:none !important;;
   /* color:#323232 !important; */
+}
+
+
+.link--active{
+  opacity: .8  !important;
+  border-bottom: 1px solid #fff !important;
 }
